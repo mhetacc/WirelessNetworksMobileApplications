@@ -49,3 +49,222 @@ large-scale investigation into the contextual detection of hate speech using LLM
 The rise of social networks and online platforms has increased global connectivity but also highlighted a trou- bling surge in hate speech across geographical and cultural boundaries. In recent studies, approximately 30% of the adolescents surveyed reported experiencing cyberbullying at some point in their lives. Furthermore, around 13% indicated that they had been cyberbullied within the 30 days before the survey [https://cyberbullying.org/facts]
 
 addressing hate speech remains challenging due to complex and varying contexts, coded language, indirect expressions, and evolving slang; Advances in artificial intelligence (AI) and machine learning (ML) have shown promise in this area [https://arxiv.org/abs/1804.04257]
+
+## Measuring Political Preferences in AI Systems: An Integrative Approach
+https://arxiv.org/abs/2503.10649
+
+### Summary
+
+Measure AI US-political bias with four methods, one aggregated final score
+
+### Content
+
+Political biases in Large Language Model (LLM)-based artificial intelligence: Results indicate a consistent left-leaning bias across most contemporary AI
+systems. Not inherent: injecting politically skewed data can re-align positions. 
+4 complementary bias-assessment methods:
+1. similarity between 
+   - AI-generated language
+   - Congress-folks language (rep and dem)
+2. LLM model to annotate (Left-Leaning or Right-Leaning) AI-generated policy recommendations
+3. Sentiment analysis for AI-generated comments about US public figures (legislators, journalists, etc) 
+4. Administer three different political orientation tests to LLMs
+
+#### Ranking
+
+Least to most politically biased:
+| Rank    | AI |
+| :--------: | :-------: |
+| 1  | Google Gemma 1.1 2b IT   |
+| 2 | xAI Grok Beta     |
+| 3    | Mistral AI Mistral 7B Instruct v0.2   |
+| ... | ... |
+| 20    | Google Gemini 1.5 Flash |
+
+### Citations
+
+Preliminary evidence has suggested that AI systems exhibit political biases in
+the textual content they generate [https://www.mdpi.com/2076-0760/12/3/148] [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621]
+
+![](imgs/usfolkssentiment.png)
+
+## Fake News Detection on Social Media: A Data Mining Perspective
+https://dl.acm.org/doi/10.1145/3137597.3137600?utm_source=chatgpt.com
+
+### Summary
+
+Survey about fake news detection with data mining techniques: features extraction, model fitting and evaluation metrics.
+
+### Content
+
+Detect fake news on social media with data-mining algorithms using also auxiliary information, eg user social engagement. Using this extra info is hard (curse of dimensionality, noisy and unstructured data).
+Problems:
+1. Fake news may cite true evidence thus sources analysis is not enough
+2. Fake news are often about new and fresh topics, so actual real data is scarce
+3. User interaction with fake news creates a colossal amount of noisy unstructured data
+
+Features Extraction: 
+How to extract features (predictors) form stuff
+- New content features
+  - Linguistic based
+  - Visual based 
+- Social context features
+  - User based
+  - Post based
+  - Network based
+
+Model construction:
+I guess model fitting
+- News content models
+  - Knowledge based
+    - Expert oriented
+    - Crowdsourcing oriented
+    - Computational oriented
+  - Style based
+    - deception oriented
+    - objectivity oriented
+- Social context models
+  - Stance based
+  - Propagation based
+
+Models are evaluated by True/False Positive/Negative metrics.
+
+### Citations
+
+the most popular fake news was even more widely spread on Facebook than the most pop- ular authentic mainstream news during the U.S. 2016 pres- ident election [https://www.buzzfeed.com/craigsilverman/viral-fake-election-news-outperformed-real-news-on-facebook?utm]
+
+fake news may cite true evidence within the in- correct context to support a non-factual claim [https://aclanthology.org/P12-2034/]
+
+
+## When Your AI Agent Succumbs to Peer-Pressure: Studying Opinion-Change Dynamics of LLMs 
+https://arxiv.org/abs/2510.19107
+
+### Summary
+
+Check how easy it is to influence LLMs to form/change opinions/views/beliefs/etc and provide framework for algorithmic audits.
+
+### Content
+
+Put LLM into social network and see how it changes its opinions -> peer pressure meaning others people vocal opinions influence you (eg grillini)
+
+Agents follow a sigmoid curve: stable at low pressure, shifting sharply at threshold, and saturating at high.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/2560px-Logistic-curve.svg.png)
+
+Agents conformity thresholds vary by model: Gemini 1.5 Flash requires over 70% peer disagreement to flip, whereas ChatGPT-4o-mini shifts with a dissenting minority
+
+Persuasion Asymmetry: shifting an opinion from affirmative-to-negative requires a different cognitive effort than the reverse
+
+Objective: from rule-based deterministic algorithms to LLMs powered agents resented with a natural-language description of their social context and are prompted to reason about their cognitive state (such as opinion, attitude, belief).
+
+ LLM agents possess complex, model-dependent responses to peer pressure that do not automatically align with traditional frameworks like the Majority Vote Model Consequently, our analysis decisively rejects the notion of a single, static cognitive spectrum for LLM agents
+
+Dual Cognitive Hierarchy:
+- Dismantling an affirmative stance (Yes→No): values are the most resistant to change, followed in descending order by Opinions, Intentions, Beliefs, and finally Attitudes, which are the most fragile
+-  (No→Yes): Attitudes harder to change, Values and Opinions easy to instill and change 
+  
+Again:
+- for Values and Opinions, agents show a strong resistance to abandoning a "Yes" stance, making them robust once affirmed
+- for Attitudes and Intentions, where the greatest challenge is overcoming a negative "No" 
+- Beliefs display a near-perfect symmetry,
+
+Lastly: different LLMs show different behaviors. (even tho they almost only used Gemini 1.5 Flash)
+
+OSS: the whole thing is done with binary YES/NO choices -> only good for polarized things.
+
+Network of peers:
+![](imgs/netwroks_20510.png)
+
+### Citations
+
+Affirmatively-held core values are robust against opposition but easily adopted from a negative stance, a pattern that inverts for other constructs like attitudes.
+
+Historically opinion dynamics models either:
+- Discrete (eg in favor, not in favor)
+- Continuous 
+Share one characteristic: rule-based.
+
+LLMs represents a significant methodological shift in computational communication science, enabling a more flexible, more nuanced, but also less controllable exploration of social theories that have historically been difficult to reduce to simple mathematical formalisms [https://dl.acm.org/doi/10.1145/3586183.3606763]
+
+social psychological research recognizes that individuals can simultaneously hold both favorable and unfavorable evaluations of an issue, a state known as ’attitudinal ambivalence’
+
+, it is well known that LLMs are sensitive to small changes in prompt wordings [https://arxiv.org/abs/2310.11324] [https://arxiv.org/abs/2401.03729]
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
+## ---
+
+### Summary
+
+### Content
+
+### Citations
+
+
