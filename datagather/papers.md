@@ -188,31 +188,96 @@ social psychological research recognizes that individuals can simultaneously hol
 
 , it is well known that LLMs are sensitive to small changes in prompt wordings [https://arxiv.org/abs/2310.11324] [https://arxiv.org/abs/2401.03729]
 
-## ---
+## AI-Mediated Communication Reshapes Social Structure in Opinion-Diverse Groups
+https://arxiv.org/abs/2510.21984v2
 
 ### Summary
 
+AI-assisted messaging can influence people opinions, tested in online chat platform
+
 ### Content
+
+Groups of people discussing topics (habbo-style rooms).
+Some participants receiving suggestion from LLMs. 
+Suggestions of two types:
+1. personalized to their opinion ("individual")
+2. similar to group's opinion ("relational")
+
+Among groups:
+- macro interactions -> creates divisions
+- micro interactions -> can create cohesion among diverse groups
+
+through messaging assistance tools create hybrid human–AI expressive processes, in which algo- rithmic suggestions subtly shape how people articulate their views While such assistance can reduce the burden of writing conventional personalization features may unintentionally reinforce users’ ideological viewpoints and deepen inter- group divisions
+
+Participants (N = 557), were randomly assigned to sessions of 6 to 15 people (M = 9.42, s.d. = 2.57), subdivided into groups of 2 to 4. Groups discussed a politically controversial topic selected to maximize opinion diversity within each session, based on pre-task survey response. After each three-minute discussion, participants chose whether to remain in their current group, join another, or create a new one. If a group had only one participant, they continued the discussion with a chatbot to ensure con- tinuous engagement. 
+In this setup, 3 AI conditions:
+1. No assistance
+2. Individual-4o assistance -> model helped partecipant articulate theyr own stance
+3. Relational GPT-4o assistance -> model was prompted to incorporate both the participant’s stance and those of their group members, with the emphasis on fostering mutual understanding
+
+Results:
+- stance clustering remained stable or increased slightly across rounds in the no-assistance condition
+- stance clustering  decreased substantially under relational assistance
+- in contrast, changes in clustering under individual assistance did not differ
+- Individual assistance, which tailored suggestions to users’ own stances, amplified communication volume yet increased separation between groups.
+- Relational assistance, which incorporated awareness of others’ perspectives, fostered more receptive conversations and produced more heterogeneous, cross-cutting group configurations.
+
 
 ### Citations
 
-## ---
+ELEPHANT: Measuring and understanding social sycophancy in LLMs: https://arxiv.org/abs/2505.13995
+
+Simple autonomous agents can enhance creative semantic discovery by human groups: https://www.nature.com/articles/s41467-024-49528-y
+
+Extending Minds with Generative AI: https://www.nature.com/articles/s41467-025-59906-9
+
+Artificial intelligence in communication impacts language and social relationships: https://www.nature.com/articles/s41598-023-30938-9
+
+Experimental evidence on the productivity effects of generative artificial intelligence: participants sent more messages when suggestions were available but rarely edited them, suggesting partial delegation of expressive effort to the AI too [https://www.science.org/doi/10.1126/science.adh2586]
+
+## Characterizing AI-Generated Misinformation on Social Media
+https://arxiv.org/abs/2505.10266v1
 
 ### Summary
 
+AI-generated fake news on X: AI tends to be more positive than human-made fake news.
+
 ### Content
 
-### Citations
+AI- generated misinformation on the social media platform X. Specifically, we analyze a dataset comprising 91,452 mis- leading posts, both AI-generated and non-AI-generated, that have been identified and flagged through X’s Community Notes platform. 
+Findings:
+1. AI-generated misinformation is more often centered on en- tertaining content and tends to exhibit a more positive sen- timent than conventional forms of misinformation, 
+2. (ii) it is more likely to originate from smaller user accounts, 
+3. (iii) de- spite this, it is significantly more likely to go viral, and 
+4. (iv) it is slightly less believable and harmful compared to conven- tional misinformation.
 
 
-## ---
+OSS: 4577 posts (i. e., 5.06%) containing AI-generated content
+
+## Synthetic Lies: Understanding AI-Generated Misinformation and Evaluating Algorithmic and Human Solutions
+https://dl.acm.org/doi/10.1145/3544548.3581318
 
 ### Summary
 
+How AI and human generated fake news differ and how to detect AI-generated ones.
+
 ### Content
+
+Compare AI and human generated fake news about COVID19. Fakenews detection models have a hard time detecting AI-generated FKNWS: they are often credible and with believable sources.  
+
+Fakenews detection is time consuming: AI can speed it up. But LLMs can also make it.
+
+Goal: assess fakenews detection algorithms with AI-generated fakenews.
+
+AI-generated misinforma- tion as it had more emotions and cognitive processing expressions than human creations.
 
 ### Citations
 
+LLMs are now widely used in producing human- like texts. Leveraging the power of LLMs, AI-generated content is increasingly indistinguishable from human-written information, and in certain cases even perceived to be more credible [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3525002]
+
+Once LLMs are used for generating misinformation, the ease and speed of producing high-volume text [...] creating an illusion of a majority perspective [https://www.wired.com/story/ai-generated-text-is-the-scariest-deepfake-of-all/]
+
+ChatGPT was released and gained million-plus users in fve days [https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/]
 
 ## ---
 
