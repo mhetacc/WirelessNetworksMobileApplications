@@ -259,7 +259,7 @@ https://dl.acm.org/doi/10.1145/3544548.3581318
 
 ### Summary
 
-How AI and human generated fake news differ and how to detect AI-generated ones.
+Detect AI-generated fake news is harder compared to human-made ones.
 
 ### Content
 
@@ -271,6 +271,15 @@ Goal: assess fakenews detection algorithms with AI-generated fakenews.
 
 AI-generated misinforma- tion as it had more emotions and cognitive processing expressions than human creations.
 
+Contributions:
+1. comprehensive understanding of AI-generated misinformation
+2. guide to generate AI-generated misinformation comparable with human creation
+3. provide empirical evidence on the risks of LLMs 
+
+Results:
+1.  from Human-misinfo in that AI-misinfo tended to enhance details, communicate uncertainties and limitations, draw conclu- sions, and simulate personal tones
+2.  Existing detection models showed drop in performance compared with Human-misinfo.
+
 ### Citations
 
 LLMs are now widely used in producing human- like texts. Leveraging the power of LLMs, AI-generated content is increasingly indistinguishable from human-written information, and in certain cases even perceived to be more credible [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3525002]
@@ -279,7 +288,8 @@ Once LLMs are used for generating misinformation, the ease and speed of producin
 
 ChatGPT was released and gained million-plus users in fve days [https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/]
 
-## ---
+## Leveraging the Power of AI and Social Interactions to Restore Trust in Public Polls
+https://arxiv.org/abs/2511.07593
 
 ### Summary
 
