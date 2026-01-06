@@ -302,7 +302,8 @@ OSS: *poll* is like "sentiamo cosa ne pensa la gente sul cambiamento climatico"
 Social interaction graph: social network graph that incorporates comments, shares, likes, etc.
 ![](https://www.researchgate.net/profile/Amritanshu-Agrawal/publication/332590549/figure/fig1/AS:750876058722309@1556034211732/An-example-of-social-interaction-graph-generated-from-our-data-The-number-of-nodes.ppm)
 
-Polls are used to crowdsource data about public opinions and behaviours. But in recent years big big decline in participation -> less representative data -> less trust in polls -> even less participation.
+Polls are used to crowdsource data about public opinions and behaviours. Credible outcomes need strict eligibility control.
+In recent years big big decline in participation -> less representative data -> less trust in polls -> even less participation.
 Also: social networks -> data gathered there is even less credible.
 
 Hypothesis: observing social interactions with sufficient dissemination flows can reveal behavioral patterns to infer participants' eligibility without a central authority or relying on people's honesty
@@ -313,38 +314,110 @@ Goal: use AI-based graph analysis on social interactions graphs to restore trust
 - experiments on real-world social network datasets
 - detecting ineligibility (i.e., users who should not participate in the poll) with up to 90% accuracy
 
+Results: over 80% F1-score in detect- ing ineligible participants in the lower eligibility ratio division (≤ 55%), with degrading performance in the upper eligibility ratio. the model was able to learn and detect ineligible participants better in the lower eligibility ratio scenarios, which is reasonable as more ineligible participants are present in this lower division. higher proportion of root nodes enhanced accuracy, reflecting their role as credible and trusted actors.  the recall was significantly higher than precision. This underscores the model’s ability to correctly identifying actual ineligible participants
+
 ### Citations
 
-Crowdsourced data has transformed social science research by providing large-scale, real-time insights into human be- havior, enabling researchers to analyze public opinion, social movements, and cultural trends more efficiently [https://press.princeton.edu/books/paperback/9780691196107/bit-by-bit]
+Crowdsourced data has transformed social science research by providing large-scale, real-time insights into human behavior, enabling researchers to analyze public opinion, social movements, and cultural trends more efficiently [https://press.princeton.edu/books/paperback/9780691196107/bit-by-bit]
 
-## ---
+## AI Techniques and Applications for Online Social Networks and Media: Insights From BERTopic Modeling
+https://ieeexplore.ieee.org/document/10892106
 
 ### Summary
 
+Use BERTopic to analyze large dataset and synthesize current research -> aka AI-made survey
+
+OSS: *BERTopic* use transformers to identify topics in large text datasets
+
 ### Content
+
+AI applications in enhancing personalization, analyzing information dynamics, and developing scalable methodologies within Online Social Networks including fake news detection, sentiment analysis, hate speech detection, big data analysis, bot detection, and insights into public health, disaster relief, and mental health. challenges like algorithmic bias and echo chambers remain. 
+
+Advanced AI techniques, such as Dynamic Memory Networks and Temporal Convolutional Networks, have shown strong capabilities in tracking opinion dynamics and combating misinformation.
+
+AI-driven recommendation systems are applied in e-commerce and digital marketing, enhancing our experiences throughout dif- ferent processe
+
+Research questions:
+1. how to AI in social networks while protecting users 
+2. how to AI to information/opinions/dynamics on online platforms
+3. how to develop scalable and efficient AI (for social media)
+4. how to moderate content with AI
+
+Research answers:
+1. AI has enhanced personalization through sentiment analysis and recommendation systems while pos- ing risks such as bias, privacy invasion, and echo chambers
+2. AI may be useful, but hard for under-resourced languages 
+3. scalable AI is important 
+4. AI-driven safeguards (eg explainable AI) very important for mitigating harmful content
 
 ### Citations
 
+In social networks AI identify patterns based on our preferences, leading to more engaging content and effective campaigns [https://ijisae.org/index.php/IJISAE/article/view/3794]
 
-## ---
+AI-driven recommendation systems are applied in e-commerce and digital marketing, enhancing our experiences throughout dif- ferent processes [https://www.researchgate.net/publication/344946592_The_Era_of_Intelligent_Recommendation_Editorial_on_Intelligent_Recommendation_with_Advanced_AI_and_Learning]
+
+Algorithmic
+biases can inadvertently lead to discrimination or exclude
+certain groups, raising ethical concerns [https://www.researchgate.net/publication/379951352_Generative_AI_and_Generative_Pre-Trained_Transformer_Applications_Challenges_and_Opportunities]
+
+## Composite AI for Behavior Analysis in Social Interactions
+https://dl.acm.org/doi/10.1145/3610661.3616237
 
 ### Summary
 
+Composite AI to analyze verbal and non-verbal cues in social interactions
+
 ### Content
 
-### Citations
+identifying and interpreting verbal and non-verbal cues is essential for analyzing human behavior and human-machine interactions. To analyze these cues, Composite AI, which combines Deep Learning (DL) and traditional AI methods, emerges as a potential approach.
 
+Proposed framework:
+- feature extraction: Deep Learning methods are employed to extract relevant information from the environment, humans and context
+- episode detection: uses the features to identify key moments (episodes) where the most action is likely to happen.
+- activity interpretation: combines classifiers and rule-based systems to detect and classify specific events. 
 
-## ---
+Extracted features are combined with rule-based systems to restrict to episodes.
+Then classifiers are used to recognize specific events.
+
+System effectiveness:  87% and 89% accuracy for verbal and non-verbal requests, respectively, and zero false positives
+
+To demonstrate the effectiveness of our approach, we consider as a use case an automated assessment of communicative skills of children with Autism Spectrum Disorder (ASD). These children’s social cues may be subtle or difficult to perceive. In this context, our emphasis is not only on accurately detecting cues, but also on understanding and characterizing situations where such cues may be absent or less noticeable
+
+## The Next Wave of AI for Social Impact: Challenges and Opportunities
+https://ieeexplore.ieee.org/document/11031151
 
 ### Summary
 
+Overview of AI focused on positive impact on vulnerable people/communities/society
+
 ### Content
+
+- examines the historical context and recent surge in AI4SI
+- highlights:
+  - interdisciplinary collaboration
+  - ethical considerations
+  - emerging AI trends for poverty, health, environmental sustainability, 
+- presents questions and challenges of the field:
+  - contextually relevant AI design
+  - overcoming data scarcity
+  - endure scalability and sustainability
+  - establish robust evaluation frameworks
+
+Artificial intelligence for social impact (AI4SI) is a subdiscipline of AI research where measurable societal impact, particularly for vulnerable and under-resourced groups, is a primary objective, focusing on areas that have historically lacked sufficient AI research and development
+
+Unlike traditional AI research, which prioritizes methodological advancements, AI4SI places direct social impact as a primary objective.
+EG: developing AI for maternal health programs, AI team should work with experts in maternal health and social work.
 
 ### Citations
 
+founding document for AI4SI. Nonetheless, the “AI for Social Good” workshop organized by the White House Of- fice of Science and Technology Policy in 2016 may be credited as the single event that sparked a signif- icant interest in this topic [https://cra.org/ccc/events/ai-social-good/]
 
-## ---
+### Glossary
+
+- Social Impact: impact/effect of people/organizations/stuff on society
+- AI4SI: AI for Social Impact, AI made to measurable positive impact on vulnerable and under-resourced people/communities/society
+
+## Modeling, Replicating, and Predicting Human Behavior: A Survey
+https://dl.acm.org/doi/10.1145/3580492
 
 ### Summary
 
