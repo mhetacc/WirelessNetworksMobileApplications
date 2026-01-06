@@ -246,10 +246,10 @@ AI-generated fake news on X: AI tends to be more positive than human-made fake n
 
 AI- generated misinformation on the social media platform X. Specifically, we analyze a dataset comprising 91,452 mis- leading posts, both AI-generated and non-AI-generated, that have been identified and flagged through X’s Community Notes platform. 
 Findings:
-1. AI-generated misinformation is more often centered on en- tertaining content and tends to exhibit a more positive sen- timent than conventional forms of misinformation, 
+1. AI-generated misinformation is more often centered on entertaining content and tends to exhibit a more positive sentiment than conventional forms of misinformation, 
 2. (ii) it is more likely to originate from smaller user accounts, 
 3. (iii) de- spite this, it is significantly more likely to go viral, and 
-4. (iv) it is slightly less believable and harmful compared to conven- tional misinformation.
+4. (iv) it is slightly less believable and harmful compared to conventional misinformation.
 
 
 OSS: 4577 posts (i. e., 5.06%) containing AI-generated content
@@ -269,7 +269,7 @@ Fakenews detection is time consuming: AI can speed it up. But LLMs can also make
 
 Goal: assess fakenews detection algorithms with AI-generated fakenews.
 
-AI-generated misinforma- tion as it had more emotions and cognitive processing expressions than human creations.
+AI-generated misinformation as it had more emotions and cognitive processing expressions than human creations.
 
 Contributions:
 1. comprehensive understanding of AI-generated misinformation
@@ -277,7 +277,7 @@ Contributions:
 3. provide empirical evidence on the risks of LLMs 
 
 Results:
-1.  from Human-misinfo in that AI-misinfo tended to enhance details, communicate uncertainties and limitations, draw conclu- sions, and simulate personal tones
+1.  from Human-misinfo in that AI-misinfo tended to enhance details, communicate uncertainties and limitations, draw conclusions, and simulate personal tones
 2.  Existing detection models showed drop in performance compared with Human-misinfo.
 
 ### Citations
