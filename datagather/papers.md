@@ -293,10 +293,29 @@ https://arxiv.org/abs/2511.07593
 
 ### Summary
 
+Detect inadequate polls participants via AI-based social network graph analysis.
+
+OSS: *poll* is like "sentiamo cosa ne pensa la gente sul cambiamento climatico"
+
 ### Content
+
+Social interaction graph: social network graph that incorporates comments, shares, likes, etc.
+![](https://www.researchgate.net/profile/Amritanshu-Agrawal/publication/332590549/figure/fig1/AS:750876058722309@1556034211732/An-example-of-social-interaction-graph-generated-from-our-data-The-number-of-nodes.ppm)
+
+Polls are used to crowdsource data about public opinions and behaviours. But in recent years big big decline in participation -> less representative data -> less trust in polls -> even less participation.
+Also: social networks -> data gathered there is even less credible.
+
+Hypothesis: observing social interactions with sufficient dissemination flows can reveal behavioral patterns to infer participants' eligibility without a central authority or relying on people's honesty
+
+Goal: use AI-based graph analysis on social interactions graphs to restore trust in public polls. Only structure based, no content analysis.
+
+- simulate different levels and types of dishonest behavior among participants who attempt to propagate the task within their social networks
+- experiments on real-world social network datasets
+- detecting ineligibility (i.e., users who should not participate in the poll) with up to 90% accuracy
 
 ### Citations
 
+Crowdsourced data has transformed social science research by providing large-scale, real-time insights into human be- havior, enabling researchers to analyze public opinion, social movements, and cultural trends more efficiently [https://press.princeton.edu/books/paperback/9780691196107/bit-by-bit]
 
 ## ---
 
