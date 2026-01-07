@@ -421,17 +421,57 @@ https://dl.acm.org/doi/10.1145/3580492
 
 ### Summary
 
+Survey about algorithmical and AI models to code human behaviour.
+
 ### Content
+
+What AI have to do: replicate human reasoning. Future AIs will need to understand and anticipate user behaviour, so to operate in symbiosis.
+
+Paper Goal: survey of two types of techniques:
+1. models that learn through exploration and feedback (eg reinforcement learning);
+2. direct models that are encoded with human behaviour (beliefs and biases), no trial and error. 
+
+Future -> digital devices (smartphones, IoT, etc) will work with both humans and AI agents -> perform tasks and stuff autonomously. Need HCAI-HumanCentricAI. AI needs to understand and predict human behavior.
+
+Focus on Human-AI interaction (HAI): humans use AI output to aid decision-making.
+
+![](imgs/surveyai_10114.png)
 
 ### Citations
 
+Human-AI codependency:  Co-Evolution over Time, Human-in-the-Loop Learning, Interactive Learning or Active Learning (AL), and Socio-Technological Ensemble [https://arxiv.org/abs/2105.03354]
 
-## ---
+HCAI systems that focus primarily on explainability: The system must prove worth using from a user’s perspective, otherwise will go unused [https://dl.acm.org/doi/10.1145/3397481.3450694 ; https://www.sciencedirect.com/science/article/pii/S1566253521002050; https://www.researchgate.net/publication/360002587_Explainable_AI_Methods_-_A_Brief_Overview; https://www.researchgate.net/publication/355002290_Toward_Human-AI_Interfaces_to_Support_Explainability_and_Causability_in_Medical_AI; https://dl.acm.org/doi/10.1145/3313831.3376301]
+
+humans exploiting the outcome of AI agents to acquire better comprehension of a phenomenon[https://arxiv.org/abs/2009.09266]
+
+humans and AI agents may perform a common operation as a team [https://dl.acm.org/doi/10.1145/3411764.3445290 ; https://arxiv.org/abs/1802.01744]
+
+## Towards Social AI: A Survey on Understanding Social Interactions
+https://arxiv.org/abs/2409.15316
 
 ### Summary
 
+Survey on existing machine learning works about understanding social interactions.
+
 ### Content
+
+enabling machines to seamlessly understand social interactions remains an open challenge -> we must give machines social capabilities:
+1. understanding **multimodal social cues**: interpret verbal and non-verbal cues together to increase precision
+2. understanding **multi-party dynamics**: multiple participants social interactions (eg who is interacting with whom, do they like each other, etc)
+3. understanding **beliefs**:
+   - individual 
+   - shared: social norms,cultural context, etc
+
+review existing machine learning works on social understanding from the perspectives of verbal, non-verbal, and multimodal social cues.
+
+3 branches:
+1. **verbal**: understanding linguistic signals such as speaker intent, dialogue sentiment, and commonsense reasoning
+2. **non-verbal**: perceiving social meaning from visual behaviors such as body gestures, gaze patterns, and facial expressions.
+3. **multimodal**: integrate verbal and non-verbal multimodal cues to do things such as recognizing emotions, conversational dynamics, and social situations
 
 ### Citations
 
+capabilities for social understanding can enhance diverse types of AI agents, from chatbots [https://arxiv.org/abs/1801.01957] to recommendation systems [https://dl.acm.org/doi/10.1145/3308558.3313469]
 
+Artificial intelligence has made significant progress in recent years, achieving human-level performance or beyond on specialized tasks in certain areas of natural language processing and computer vision [https://arxiv.org/abs/2303.08774], [https://arxiv.org/abs/2312.11805], [https://arxiv.org/abs/2304.02643], [https://arxiv.org/abs/2112.10752].
