@@ -11,9 +11,9 @@ The development of information dissemination has a long history of influencing p
 
 the term **“Generative Artificial Intelligence (AI)”** refers to AI technologies designed to produce new and original content. This content includes text, images, audio, and other media forms, often matching the sophistication and authenticity of human-generated output. Models like GPT-4, with their human-like text generation, are able to pass the Turing test [https://www.nature.com/articles/d41586-023-02361-7]
 
-The synthesis of **recent advancements in Generative AI** and its application to the generation and detection of Fake News reveals a rapidly evolving field marked by interdisci- plinary contributions. From the foundational work by Devlin et al. (2018) on BERT, which revolutionized natural language processing (NLP) through deep bidirectional transformers, to the innovative detection models like exBAKE by Jwa et al. (2019) and the application of transformers in identifying automatically generated headlines by Maronikolakis et al. (2021), the landscape of Fake News detection has significantly expanded [https://arxiv.org/abs/1810.04805 ; https://arxiv.org/abs/2009.13375 ; https://www.mdpi.com/2076-3417/9/19/4062]
+The synthesis of **recent advancements in Generative AI** and its application to the generation and detection of Fake News reveals a rapidly evolving field marked by interdisci- plinary contributions. From the foundational work by Devlin et al. (2018) on BERT, which revolutionized natural language processing (NLP) through deep bidirectional transformers, to the innovative detection models like exBAKE by Jwa et al. (2019) and the application of transformers in identifying automatically generated headlines by Maronikolakis et al. (2021), the landscape of Fake News detection has significantly expanded [https://arxiv.org/abs/1810.04805] [https://arxiv.org/abs/2009.13375] [https://www.mdpi.com/2076-3417/9/19/4062]
 
-The role of **AI in both facilitating and combating the spread of Fake News** introduces a paradox that researchers must navigate. While generative AI models have the potential to create highly realistic and misleading content, as explored by Mosallanezhad et al. (2020) and Cocchi et al. (2023), they also offer the tools necessary for the development of sophisticated detection algorithms [https://arxiv.org/abs/2010.16324 ; https://iris.unimore.it/retrieve/5e39d149-d12a-480e-8014-c9d734d065a8/2023-iciap-deepfake.pdf]
+The role of **AI in both facilitating and combating the spread of Fake News** introduces a paradox that researchers must navigate. While generative AI models have the potential to create highly realistic and misleading content, as explored by Mosallanezhad et al. (2020) and Cocchi et al. (2023), they also offer the tools necessary for the development of sophisticated detection algorithms [https://arxiv.org/abs/2010.16324] [https://iris.unimore.it/retrieve/5e39d149-d12a-480e-8014-c9d734d065a8/2023-iciap-deepfake.pdf]
 
 ![Structural overview of the domain of Generative AI and its impact on Fake News, illustrating the main themes of creation and detection, along with their subtopics and interrelations. Blue indicates the main themes of the domain; green highlights the subtopics related to these main themes; and yellow denotes key technologies and methodologies central to understanding and addressing the challenges in this domain.](imgs/GAI_2404.png)
 
@@ -441,11 +441,11 @@ Focus on Human-AI interaction (HAI): humans use AI output to aid decision-making
 
 Human-AI codependency:  Co-Evolution over Time, Human-in-the-Loop Learning, Interactive Learning or Active Learning (AL), and Socio-Technological Ensemble [https://arxiv.org/abs/2105.03354]
 
-HCAI systems that focus primarily on explainability: The system must prove worth using from a user’s perspective, otherwise will go unused [https://dl.acm.org/doi/10.1145/3397481.3450694 ; https://www.sciencedirect.com/science/article/pii/S1566253521002050; https://www.researchgate.net/publication/360002587_Explainable_AI_Methods_-_A_Brief_Overview; https://www.researchgate.net/publication/355002290_Toward_Human-AI_Interfaces_to_Support_Explainability_and_Causability_in_Medical_AI; https://dl.acm.org/doi/10.1145/3313831.3376301]
+HCAI systems that focus primarily on explainability: The system must prove worth using from a user’s perspective, otherwise will go unused [https://dl.acm.org/doi/10.1145/3397481.3450694] [https://www.sciencedirect.com/science/article/pii/S1566253521002050] [https://www.researchgate.net/publication/360002587_Explainable_AI_Methods_-_A_Brief_Overview] [https://www.researchgate.net/publication/355002290_Toward_Human-AI_Interfaces_to_Support_Explainability_and_Causability_in_Medical_AI] [https://dl.acm.org/doi/10.1145/3313831.3376301]
 
 humans exploiting the outcome of AI agents to acquire better comprehension of a phenomenon[https://arxiv.org/abs/2009.09266]
 
-humans and AI agents may perform a common operation as a team [https://dl.acm.org/doi/10.1145/3411764.3445290 ; https://arxiv.org/abs/1802.01744]
+humans and AI agents may perform a common operation as a team [https://dl.acm.org/doi/10.1145/3411764.3445290] [https://arxiv.org/abs/1802.01744]
 
 ## Towards Social AI: A Survey on Understanding Social Interactions
 https://arxiv.org/abs/2409.15316
@@ -474,4 +474,4 @@ review existing machine learning works on social understanding from the perspect
 
 capabilities for social understanding can enhance diverse types of AI agents, from chatbots [https://arxiv.org/abs/1801.01957] to recommendation systems [https://dl.acm.org/doi/10.1145/3308558.3313469]
 
-Artificial intelligence has made significant progress in recent years, achieving human-level performance or beyond on specialized tasks in certain areas of natural language processing and computer vision [https://arxiv.org/abs/2303.08774], [https://arxiv.org/abs/2312.11805], [https://arxiv.org/abs/2304.02643], [https://arxiv.org/abs/2112.10752].
+Artificial intelligence has made significant progress in recent years, achieving human-level performance or beyond on specialized tasks in certain areas of natural language processing and computer vision [https://arxiv.org/abs/2303.08774] [https://arxiv.org/abs/2312.11805] [https://arxiv.org/abs/2304.02643] [https://arxiv.org/abs/2112.10752].
