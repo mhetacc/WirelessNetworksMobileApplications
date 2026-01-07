@@ -470,6 +470,8 @@ review existing machine learning works on social understanding from the perspect
 2. **non-verbal**: perceiving social meaning from visual behaviors such as body gestures, gaze patterns, and facial expressions.
 3. **multimodal**: integrate verbal and non-verbal multimodal cues to do things such as recognizing emotions, conversational dynamics, and social situations
 
+![](imgs/socialai_2409.png)
+
 ### Citations
 
 capabilities for social understanding can enhance diverse types of AI agents, from chatbots [https://arxiv.org/abs/1801.01957] to recommendation systems [https://dl.acm.org/doi/10.1145/3308558.3313469]
