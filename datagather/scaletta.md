@@ -70,6 +70,8 @@
 
 ## Intro
 
+Artificial Intelligence has fascinated public and scientific community alike for almost a century, especially since Alan Turing's famous "Imitation Game" [https://courses.cs.umbc.edu/471/papers/turing.pdf]. The idea, trivialized, follows: any machine capable of fooling a person into thinking it's speaking to a human, can be considered sentient. This statement kept being true for seventy-three years, until OpenAI's ChatGPT-4 broke it in 2023 [https://www.nature.com/articles/d41586-023-02361-7]. This model is one of the last iterations \footnote{At the moment of writing, january 2026, the last one released is GPT-5.2} of the Generative Pre-Training models pioneerd by OpenAI in 2018 [https://www.semanticscholar.org/paper/Improving-Language-Understanding-by-Generative-Radford-Narasimhan/cd18800a0fe0b668a1cc19f2ec95b5003d0a5035], which closely follow the first real improvement torwards a human-like 
+
 ## AI on Fake News
 
 ## AI on Humans
