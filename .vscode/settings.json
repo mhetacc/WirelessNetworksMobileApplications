@@ -1,5 +1,60 @@
 {
+    "macros": {
+        "italic_latex": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "\\textit{}"
+                }
+            },
+            "cursorLeft"
+        ],
+        "color_text": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "\\textcolor{changes}{}"
+                }
+            },
+            "cursorLeft"
+        ],
+        "markdown_code_block": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "```python```"
+                }
+            },
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft"
+        ],
+        "markdown_code_word": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "``"
+                }
+            },
+            "cursorLeft"
+        ],
+        "html_sup": [
+            {
+                "command": "type",
+                "args": {
+                    "text": "<sup></sup>"
+                }
+            },
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft",
+            "cursorLeft"
+        ]
+    },
     "cSpell.words": [
         "multimodal"
-    ]
+    ],
+    "editor.wordWrap": "on"
 }
