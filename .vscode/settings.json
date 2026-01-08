@@ -38,11 +38,11 @@
             },
             "cursorLeft"
         ],
-        "html_sup": [
+        "html_sub": [
             {
                 "command": "type",
                 "args": {
-                    "text": "<sup></sup>"
+                    "text": "<sub></sub>"
                 }
             },
             "cursorLeft",

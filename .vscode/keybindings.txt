@@ -19,5 +19,5 @@
     }
     {
         "key": "ctrl+shift+s",
-        "command": "macros.hmtl_sup"
+        "command": "macros.hmtl_sub"
     }
