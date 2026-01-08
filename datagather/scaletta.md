@@ -7,7 +7,7 @@
     - ai for opinions on online platforms
     - scalable and efficient ai
     - ai content moderation
-    - **Citations:**
+  - **Citations:**
       - Data-centric society: Cambridge Analytica used data in brexit and 2016 US elections to influence stuff [https://ieeexplore.ieee.org/document/8364652]
       - GPT4 is able to pass Turing test [https://www.nature.com/articles/d41586-023-02361-7]
       - GPT models: <sub>Generative Pre-trained Transformer (GPT) models represent a significant advancement in language pro- cessing, capable of generating coherent and contextually rel- evant text based on a given prompt, which is a user-defined input that guides the model’s text generation process. These models are distinguished by their ability to perform a wide array of language tasks without task-specific training [https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf]</sub>
