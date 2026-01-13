@@ -54,7 +54,10 @@
         ]
     },
     "cSpell.words": [
-        "multimodal"
+        "Convolutional",
+        "hyperparameters",
+        "multimodal",
+        "virality"
     ],
     "editor.wordWrap": "on"
 }
