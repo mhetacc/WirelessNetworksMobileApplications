@@ -54,6 +54,7 @@
   - measure ai bias on us politics: 2503.1064 
   - influence ai opinions/beliefs: 2510.19107
   - **Citations:**
+    - <sub>Preliminary evidence has suggested that AI systems exhibit political biases in the textual content they generate [https://www.mdpi.com/2076-0760/12/3/148] [https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306621]</sub>
     - LLMs sensitive to small changes in prompt wording: [https://arxiv.org/abs/2310.11324] [https://arxiv.org/abs/2401.03729]
     - LLMs glazing: <sub>ELEPHANT: Measuring and understanding social sycophancy in LLMs: https://arxiv.org/abs/2505.13995</sub>
     - <sub>Algorithmic biases can inadvertently lead to discrimination or exclude certain groups, raising ethical concerns [https://www.researchgate.net/publication/379951352_Generative_AI_and_Generative_Pre-Trained_Transformer_Applications_Challenges_and_Opportunities]</sub>
