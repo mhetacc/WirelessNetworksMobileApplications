@@ -1262,7 +1262,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
@@ -1287,8 +1286,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tl
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-t1.vf
@@ -1304,6 +1301,7 @@ INPUT ./sections/aionfakenews.tex
 INPUT ./sections/aionfakenews.tex
 INPUT sections/aionfakenews.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
@@ -1325,6 +1323,8 @@ INPUT ./sections/aionhumans.tex
 INPUT sections/aionhumans.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineTB-tlf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1--base.tfm
 INPUT ./images/dossantos.png
 INPUT ./images/dossantos.png
 INPUT images/dossantos.png
