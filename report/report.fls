@@ -1337,6 +1337,11 @@ INPUT sections/aiownbias.tex
 INPUT ./sections/aiownbias.tex
 INPUT ./sections/aiownbias.tex
 INPUT sections/aiownbias.tex
+INPUT ./images/rozando_manycolors.png
+INPUT ./images/rozando_manycolors.png
+INPUT images/rozando_manycolors.png
+INPUT ./images/rozando_manycolors.png
+INPUT ./images/rozando_manycolors.png
 INPUT ./sections/ethicalai.tex
 INPUT ./sections/ethicalai.tex
 INPUT ./sections/ethicalai.tex

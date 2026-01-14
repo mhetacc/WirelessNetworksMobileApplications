@@ -1,8 +1,39 @@
 \section{ai own biases and influenceability}
 \label{sec:ai_biases}
 
-Artificial agents are trained on a mostly human-generated corpus of data, so they can develop biases and tendencies themselves.  They can develop both historical and political biases in the textual content they generate \cite{roselli_managing_2019,rozado_political_2023,rozado_political_2024}. They tend to exhibit social sycophancy, by agreeing with and flattering the user at the cost of correctness \cite{cheng_elephant_2025}, and they are easily influenceable by small changes in prompt wording \cite{sclar_quantifying_2024, salinas_butterfly_2024}. This can be highly problematic as it can lead to discrimination or exclude certain groups, raising ethical concerns \cite{rosario_generative_1}.
+Artificial agents are trained on a mostly human-generated data, so they learn human biases and tendencies themselves, developing both historical and political preferences in the textual content they generate \cite{roselli_managing_2019,rozado_political_2023,rozado_political_2024}. They tend to exhibit social sycophancy, by agreeing with and flattering the user at the cost of correctness \cite{cheng_elephant_2025}, and they are easily influenceable by small changes in prompt wording \cite{sclar_quantifying_2024, salinas_butterfly_2024}. This can be highly problematic as biased AIs can lead to discrimination or exclusion of marginalized groups, raising ethical concerns \cite{rosario_generative_1}.
 
 %% measure ai bias on us politics: 2503.1064
+
+Rozado, in the context of US politics, measured the political bias of popular large language models \cite{rozado_measuring_2025}. First, they calculated the similarity between AI-generated text and public speeches from Congress representatives (both Democrat and Republican). Then, they used an LLM to annotate as left- or right-leaning AI-generated policy recommendations. Consequently, they did a sentiment analysis on AI-generated comments about american public figures, such as legislators or journalists (figure \ref{fig:rozado_colors}), and lastly they administered three different political orientation tests to the various LLMs. The results show substantial evidence that popular large language models are biased and left-leaning. Table \ref{tab:rozado} shows the three most and three least biased LLMs among those tested.
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{images/rozando_manycolors.png}
+  \caption{Average sentiment (negative: -1, neutral: 0, positive: 1) towards ideologically aligned public figures in conversational LLMs’ generated texts. Statistically significant two-sample t-tests at the 0.01 threshold are indicated with an asterisk. Rozado \cite{rozado_measuring_2025}}
+  \Description{Many bar graphs.}
+  \label{fig:rozado_colors}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \caption{Ranking of political bias in conversational LLMs sorted in ascending
+order from least politically biased to most. Rozado \cite{rozado_measuring_2025}}
+    \label{tab:rozado}
+    \begin{tabular}{lc}
+        \toprule
+        \textbf{Rank} & \textbf{Model}\\
+        \midrule
+            1         &   Google Gemma 1.1 2b IT  \\
+            2         &   xAI Grok Beta    \\
+            3        &   Mistral AI Mistral 7B Instruct v0.2     \\
+            ...        &   ...     \\
+            18          &   Nous Hermes 2 Mixtral 8x7B DPO     \\
+            19     &   Google Gemini 1.5 Pro      \\
+            20  &  Google Gemini 1.5 Flash      \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 %% influence ai opinions/beliefs: 2510.19107
