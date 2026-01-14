@@ -42,7 +42,7 @@
   - ai detect inadequate poll participants: 2511.0759
     - why poll and crowdsourcing: <sub>Crowdsourced data has transformed social science research by providing large-scale, real-time insights into human behavior, enabling researchers to analyze public opinion, social movements, and cultural trends more efficiently [https://press.princeton.edu/books/paperback/9780691196107/bit-by-bit]</sub>
   - ai analyze multimodal social interactions: 10.1145/3610
-  - ai to model and replicate human behaviour: 10.1145/3680
+  - ai to model and replicate human behaviour: 10.1145/3580
     - why model human behaviour: <sub>Human-AI codependency: Co-Evolution over Time, Human-in-the-Loop Learning, Interactive Learning or Active Learning (AL), and Socio-Technological Ensemble [https://arxiv.org/abs/2105.03354]; humans and AI agents may perform a common operation as a team [https://dl.acm.org/doi/10.1145/3411764.3445290] [https://arxiv.org/abs/1802.01744]</sub>
     - how the system should be: <sub>HCAI systems that focus primarily on explainability: The system must prove worth using from a user’s perspective, otherwise will go unused [https://dl.acm.org/doi/10.1145/3397481.3450694] [https://www.sciencedirect.com/science/article/pii/S1566253521002050] [https://www.researchgate.net/publication/360002587_Explainable_AI_Methods_-_A_Brief_Overview] [https://www.researchgate.net/publication/355002290_Toward_Human-AI_Interfaces_to_Support_Explainability_and_Causability_in_Medical_AI] [https://dl.acm.org/doi/10.1145/3313831.3376301]</sub>
   - survey on ML works to understand social interactions: 2409.1531

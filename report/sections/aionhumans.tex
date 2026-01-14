@@ -1,28 +1,27 @@
 \section{AI on Human Behaviour}
 \label{sec:ai_humancentric}
 
-Today's society is already fully dependent on technology: from banking system, to traffic monitoring and public health databases IT systems have become essential. Individuals are in the same situation: virtually everyone in global north under the age of 65 possess and use daily a smartphone \cite{howarth_how_2021}. It follows that artificial intelligence will become an integral part of our personal and professional lives, therefore modeling them to mimic our behaviors could aid in their usefulness and understandability. There are already evidences that humans can exploit them to acquire better comprehension of a phenomenon \cite{schneider_humans_2020}, and they can also enhance creativity in heterogeneous groups \cite{ueshima_simple_2024}. Moreover, LLMs represents a significant methodological shift in computational communication science, enabling a more flexible, more nuanced, but also less controllable exploration of social theories that have historically been difficult to reduce to simple mathematical formalisms \cite{park_generative_2023}.
-Overall, AI promise to be a good fit for understanding, modeling and replicating human behaviour.
+Today's society is already fully dependent on technology: from the banking system, to traffic monitoring and management or public health databases, IT systems have become essential. Individuals are in the same situation: virtually everyone in global north under the age of 65 possess a smartphone and use it daily \cite{howarth_how_2021}. It follows that artificial intelligence will become an integral part of our personal and professional lives, therefore modeling it to mimic our behaviors could aid in its usefulness and understanding. There are already evidences that humans can exploit it to acquire better comprehension of a phenomenon \cite{schneider_humans_2020}, and it can also enhance creativity in heterogeneous groups \cite{ueshima_simple_2024}. Moreover, LLMs represents a significant methodological shift in computational communication science, enabling a more flexible, more nuanced, but also less controllable exploration of social theories that have historically been difficult to reduce to simple mathematical formalisms \cite{park_generative_2023}.
+Overall, AI promises to be a good fit for understanding, modeling and replicating human behaviour. 
 
-%% analyze multimodal social interactions
+%% human behaviour understating
 
-%% replicate human behaviour
+For these very purposes, Dos Santos Melicio et al. \cite{dos_santos_melicio_composite_2023} propose a three-phase AI framework (figure \ref{fig:dossantos}) that analyzes verbal and non-verbal social cues. First, deep learning methods are employed to extract relevant information from the environment. Then, the episode detection phase uses extracted features to identify key moments, or episodes, which are then classified in the activity interpretation phase. Overall, the system can recognize verbal hints with 87\% accuracy and non-verbal ones with 89\% accuracy, with zero false positives. 
+The system was tested in an automated assessment of communicative skills of children with Autism Spectrum Disorder (ASD), a challenging context where social cues may be less noticeable or outright absent.
 
-%% hate speech
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{images/dossantos.png}
+  \caption{Composite AI framework: Deep Learning methods extract features which are then combined with rule-based systems for detecting key episodes, and then classifiers are used to interpret activities happening in the scene. Dos Santos Melicio et al. \cite{dos_santos_melicio_composite_2023}}
+  \Description{Composite AI framework.}
+  \label{fig:dossantos}
+\end{figure}
 
-One possible use of such capabilities is hate speech detection: the rise of social networks and online platforms translated into a surge in hate speech across geographical and cultural boundaries. In recent studies, approximately 30\% of the adolescents surveyed reported experiencing cyberbullying at some point in their lives. Furthermore, around 13\% indicated that they had been cyberbullied within the 30 days before the survey \cite{patchin_cyberbullying_2015}. 
+%% hate speech detection
+
+Another possible use of such capabilities is hate speech detection: the rise of social networks and online platforms translated into a surge in hate speech across geographical and cultural boundaries. In recent studies, approximately 30\% of the adolescents surveyed reported experiencing cyberbullying at some point in their lives. Furthermore, around 13\% indicated that they had been cyberbullied within the 30 days before the survey \cite{patchin_cyberbullying_2015}. 
 
 To address these challenges, Chapagain et al. \cite{chapagain_advancing_2025} evaluate different LLMs (BART, ELECTRA, BERT, RoBERTa, and GPT-2) on the extensive \textit{MetaHate} dataset \cite{piot_metahate_2024}. ELECTRA achieved the highest F1 score (table \ref{tab:chapa_f1}), outperforming all other baselines in hate speech classification
-
-These technologies can also be used to influence people opinions. Huq et al. \cite{huq_ai-mediated_2025} tested such a scenario with AI-assisted messaging in an online chat platform. 557 Participants were randomly assigned to sessions of six to fifteen people, further subdivided into groups of two to four.
-They discussed politically controversial topic selected to maximize opinion diversity within each three-minutes session, at the end of which they chose whether to remain in their current group, join another, or create a new one. 
-Some of them received suggestions from large language models, either personalized to their own opinion (\textit{"individuals"}) or more similar to the group's (\textit{"relational"}). 
-
-The results show that individual assistance amplified communication volume yet increased separation between groups, while relational assistance fostered more receptive conversations and produced more heterogeneous, cross-cutting group configurations, highlighting both the dangers and the possibilities of employing artificial agents in such a fashion.
-
-Similar conclusions can be seen in other research results: Hohenstein et al. \cite{hohenstein_artificial_2023} highlights how AI response suggestion systems change how people interact with and perceive one another in both pro-social and anti-social ways. 
-Moreover, Noy et al. \cite{noy_experimental_2023} shows that people tend to send more messages when suggestions are available, but rarely edit them, suggesting partial delegation of expressive effort. 
-
 
 \begin{table}[h]
     \centering
@@ -47,3 +46,18 @@ Moreover, Noy et al. \cite{noy_experimental_2023} shows that people tend to send
         \bottomrule
     \end{tabular}
 \end{table}
+
+%% influence opinions
+
+These technologies can also be used to influence people opinions. Huq et al. \cite{huq_ai-mediated_2025} tested this with AI-assisted messaging in an online chat platform. 557 Participants were randomly assigned to sessions of six to fifteen people, further subdivided into groups of two to four.
+They discussed politically controversial topic selected to maximize opinion diversity within each three-minutes session, at the end of which they chose whether to remain in their current group, join another, or create a new one. 
+Some of them received suggestions from large language models, either personalized to their own opinion (\textit{"individuals"}) or more similar to the group's (\textit{"relational"}). 
+
+The results show that individual assistance amplified communication volume yet increased separation between groups, while relational assistance fostered more receptive conversations and produced more heterogeneous, cross-cutting group configurations, highlighting both the dangers and the possibilities of employing artificial agents in such a fashion.
+
+Similar conclusions can be seen in other research results: Hohenstein et al. \cite{hohenstein_artificial_2023} highlights how AI response suggestion systems change how people interact with and perceive one another in both pro-social and anti-social ways. 
+Moreover, Noy et al. \cite{noy_experimental_2023} shows that people tend to send more messages when suggestions are available, but rarely edit them, suggesting partial delegation of expressive effort. 
+
+% conclusions
+
+Overall, AI tools seem capable of reducing harmful online behaviors, but can potentially be extremely disruptive due to their capability of influencing people's opinions and reducing autonomous behaviour.

@@ -26,21 +26,6 @@ Deepfakes also increase the amount of conspiratorial videos on the internet, and
 It follows that detecting and mitigating fake news is crucial. 
 From the foundational work by Devlin et al. on \textit{BERT} in 2018 \cite{devlin_bert_2019}, which revolutionized natural language processing trough deep bidirectional transformers, to the application of said transformers in identifying automatically generated headlines \cite{maronikolakis_identifying_2021}; the landscape of automated fake news detection has significantly expanded.
 Vijjali et al. \cite{vijjali_two_2020} developed a two-stage transformer-based model for detecting COVID-19 related misinformation, combining fact-checking with textual entailment to verify claims. Their model performs significantly better than other baseline NLP approaches (table \ref{tab:vijjali}). 
-Jwa et al. \cite{jwa_exbake_2019} propose an improved \textit{exBAKE} model that leverages pre-training on a BERT model to accurately understand and assess articles' authenticity. They only analyzed the relationship between headlines body. 
-Results can be seen in table \ref{tab:jwa_fakenews}.
-Schütz et al. \cite{schutz_automatic_2021} experimented on \textit{FakeNewsNet} dataset with  \textit{XLNet}, BERT, \textit{RoBERTa}, \textit{DistilBERT}, and \textit{ALBERT} and various combinations of hyperparameters. The evaluation shows that already short texts are enough to attain 85\% accuracy on the test set. Using the body text and a concatenation of both reach up to 87\% accuracy.
-Lastly, on the matter of deepfakes, Bansal et al. \cite{bansal_deepfake_2023} use \textit{Convolutional Neural Networks} (CNN) and \textit{Deep Convolutional Generative Adversarial Networks} (GAN) to detect them with high accuracy, as shown in figure \ref{fig:bansal_deepfake}.
-
-These were just a small selection of the many research works in the field of AI-aided fake news generation and detection, which while being extremely relevant and proliferous, are but a fraction of the many potential uses for these technologies.
-
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=.7\linewidth]{images/bansal_deepfake.png}
-  \caption{Transformer models scores on deepfakes detection, Bansal et al. \cite{bansal_deepfake_2023}}
-  \Description{Graph shows precision metrics for different models}
-  \label{fig:bansal_deepfake}
-\end{figure}
 
 \begin{table}[h]
     \centering
@@ -60,6 +45,9 @@ These were just a small selection of the many research works in the field of AI-
     \end{tabular}
 \end{table}
 
+Jwa et al. \cite{jwa_exbake_2019} propose an improved \textit{exBAKE} model that leverages pre-training on a BERT model to accurately understand and assess articles' authenticity. They only analyzed the relationship between headlines body. 
+Results can be seen in table \ref{tab:jwa_fakenews}.
+
 \begin{table}[h]
     \centering
     \caption{Precision metrics for exBAKE transformer model on fake news recognition, Jwa et al. \cite{jwa_exbake_2019}}
@@ -76,3 +64,17 @@ These were just a small selection of the many research works in the field of AI-
         \bottomrule
     \end{tabular}
 \end{table}
+
+Schütz et al. \cite{schutz_automatic_2021} experimented on \textit{FakeNewsNet} dataset with  \textit{XLNet}, BERT, \textit{RoBERTa}, \textit{DistilBERT}, and \textit{ALBERT} and various combinations of hyperparameters. The evaluation shows that already short texts are enough to attain 85\% accuracy on the test set. Using the body text and a concatenation of both reach up to 87\% accuracy.
+Lastly, on the matter of deepfakes, Bansal et al. \cite{bansal_deepfake_2023} use \textit{Convolutional Neural Networks} (CNN) and \textit{Deep Convolutional Generative Adversarial Networks} (GAN) to detect them with high accuracy, as shown in figure \ref{fig:bansal_deepfake}.
+
+These were just a small selection of the many research works in the field of AI-aided fake news generation and detection, which while being extremely relevant and proliferous, are but a fraction of the many potential uses for these technologies.
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=.7\linewidth]{images/bansal_deepfake.png}
+  \caption{Transformer models scores on deepfakes detection, Bansal et al. \cite{bansal_deepfake_2023}}
+  \Description{Graph shows precision metrics for different models}
+  \label{fig:bansal_deepfake}
+\end{figure}

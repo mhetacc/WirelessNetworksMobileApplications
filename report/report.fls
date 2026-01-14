@@ -1303,6 +1303,7 @@ INPUT sections/aionfakenews.tex
 INPUT ./sections/aionfakenews.tex
 INPUT ./sections/aionfakenews.tex
 INPUT sections/aionfakenews.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ot1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc
@@ -1315,7 +1316,6 @@ INPUT ./images/bansal_deepfake.png
 INPUT images/bansal_deepfake.png
 INPUT ./images/bansal_deepfake.png
 INPUT ./images/bansal_deepfake.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
 INPUT ./sections/aionhumans.tex
 INPUT ./sections/aionhumans.tex
 INPUT ./sections/aionhumans.tex
@@ -1325,6 +1325,11 @@ INPUT ./sections/aionhumans.tex
 INPUT sections/aionhumans.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT ./images/dossantos.png
+INPUT ./images/dossantos.png
+INPUT images/dossantos.png
+INPUT ./images/dossantos.png
+INPUT ./images/dossantos.png
 INPUT ./sections/aiownbias.tex
 INPUT ./sections/aiownbias.tex
 INPUT ./sections/aiownbias.tex
