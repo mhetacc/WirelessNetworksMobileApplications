@@ -477,3 +477,7 @@ review existing machine learning works on social understanding from the perspect
 capabilities for social understanding can enhance diverse types of AI agents, from chatbots [https://arxiv.org/abs/1801.01957] to recommendation systems [https://dl.acm.org/doi/10.1145/3308558.3313469]
 
 Artificial intelligence has made significant progress in recent years, achieving human-level performance or beyond on specialized tasks in certain areas of natural language processing and computer vision [https://arxiv.org/abs/2303.08774] [https://arxiv.org/abs/2312.11805] [https://arxiv.org/abs/2304.02643] [https://arxiv.org/abs/2112.10752].
+
+## The Social Impact of Generative AI: An Analysis on ChatGPT
+https://dl.acm.org/doi/pdf/10.1145/3582515.3609555
+
