@@ -17,15 +17,15 @@ GitHub repository: \url{https://github.com/twitter/communitynotes}}.
 Their findings reveal that generated fake news are often centered on entertaining content rather than controversial or political subjects, and tends to exhibit a more positive sentiment than conventional forms of misinformation. 
 Unfortunately, it is also significantly more likely to go viral.
 
-Lastly, AI agents can produce more than just text: they can create realistic images, videos and sounds, allowing them to make digital copies of real or fictional people, known as deepfakes. 
-In March 2019, such a technology has been used to trick a UK-based energy firm's CEO into transferring $\mathdollar 243{.}000$ to a malicious party, disguised as an entirely AI-generated executive from their parent company \cite{ferrara_genai_2024}. 
+Lastly, AI agents can produce more than just text: they can create realistic images, videos and sounds, allowing them to make digital copies of real or fictional people, known as \textit{deepfakes}. 
+In March 2019, this technology has been used to trick an UK-based energy firm's CEO into transferring $\mathdollar 243{.}000$ to a malicious party, disguised as an entirely AI-generated executive from their parent company \cite{ferrara_genai_2024}. 
 Deepfakes also increase the amount of conspiratorial videos on the internet, and they are especially vicious when targeting children, whose worldviews are easily swayed by deceptive, highly photorealistic content \cite{verma_one_2024}.
 
 % detection
 
 It follows that detecting and mitigating fake news is crucial. 
 From the foundational work by Devlin et al. on \textit{BERT} in 2018 \cite{devlin_bert_2019}, which revolutionized natural language processing trough deep bidirectional transformers, to the application of said transformers in identifying automatically generated headlines \cite{maronikolakis_identifying_2021}; the landscape of automated fake news detection has significantly expanded.
-Vijjali et al. \cite{vijjali_two_2020} developed a two-stage transformer-based model for detecting COVID-19 related misinformation, combining fact-checking with textual entailment to verify claims. Their model performs significantly better than other baseline NLP approaches (table \ref{tab:vijjali}). 
+Vijjali et al. \cite{vijjali_two_2020} developed a two-stage transformer-based model for detecting COVID-19 related misinformation, combining fact-checking with textual entailment\footnote{In natural language processing, textual entailment is a directional relation between text fragments. If the first sentence is true and that makes the second sentence true as well, then the first sentence entails the second.} to verify claims. Their model performs significantly better than other baseline NLP approaches (table \ref{tab:vijjali}). 
 
 \begin{table}[h]
     \centering
@@ -65,7 +65,7 @@ Results can be seen in table \ref{tab:jwa_fakenews}.
     \end{tabular}
 \end{table}
 
-Schütz et al. \cite{schutz_automatic_2021} experimented on \textit{FakeNewsNet} dataset with  \textit{XLNet}, BERT, \textit{RoBERTa}, \textit{DistilBERT}, and \textit{ALBERT} and various combinations of hyperparameters. The evaluation shows that already short texts are enough to attain 85\% accuracy on the test set. Using the body text and a concatenation of both reach up to 87\% accuracy.
+Schütz et al. \cite{schutz_automatic_2021} experimented on \textit{FakeNewsNet} dataset with  \textit{XLNet}, BERT, \textit{RoBERTa}, \textit{DistilBERT}, and \textit{ALBERT} and various combinations of hyperparameters. The evaluation shows that titles are enough to attain 85\% accuracy, while concatenating them with the body text increase it to 87\%.
 Lastly, on the matter of deepfakes, Bansal et al. \cite{bansal_deepfake_2023} use \textit{Convolutional Neural Networks} (CNN) and \textit{Deep Convolutional Generative Adversarial Networks} (GAN) to detect them with high accuracy, as shown in figure \ref{fig:bansal_deepfake}.
 
 These were just a small selection of the many research works in the field of AI-aided fake news generation and detection, which while being extremely relevant and proliferous, are but a fraction of the many potential uses for these technologies.
