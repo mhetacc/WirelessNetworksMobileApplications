@@ -10,4 +10,4 @@ the first half showcases generation and detection of fake news and deepfakes, as
 
 ## Report
 
-Report at: https://github.com/mhetacc/WirelessNetworksMobileApplications/blob/main/report/report.pdf
+Report at: [report.pdf](https://github.com/mhetacc/WirelessNetworksMobileApplications/blob/51a02426b1ae2b36cd2245015b736857da6aa964/report/report.pdf)
